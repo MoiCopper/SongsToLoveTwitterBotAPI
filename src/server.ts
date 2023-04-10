@@ -1,1 +1,9 @@
-console.log('hello');
+import { app } from "./app"
+
+app
+  .listen({
+    port: 3333,
+  })
+  .then(() => {
+    console.log('🥰 lets love')
+  })
