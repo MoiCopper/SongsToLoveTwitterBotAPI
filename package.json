@@ -10,11 +10,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.21",
     "@types/node": "^18.15.11",
     "tsx": "^3.12.6",
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "fastify": "^4.15.0"
+    "chatgpt": "^5.2.2",
+    "fastify": "^4.15.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^3.2.1",
+    "puppeteer": "^19.8.5",
+    "ytdl-core": "^4.11.4",
+    "zod": "^3.21.4"
   }
 }
